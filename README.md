@@ -1,6 +1,6 @@
 # OpenSTF::Client
 
-A Ruby client for the OpenSTF APIs. It parses 
+A Ruby client for the OpenSTF APIs. It converts Swagger documentation of OpenSTF to API Client with using [notonthehighstreet/svelte](https://github.com/notonthehighstreet/svelte) dynamically.
 
 ## Installation
 
