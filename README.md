@@ -6,7 +6,8 @@ A Ruby client for the OpenSTF APIs. It converts Swagger documentation of OpenSTF
 
 Add this line to your application's Gemfile:
 
-```ruby
+ ```ruby
+gem 'svelte', :git => 'https://github.com/ainoya/svelte.git' # you must specify patched version svelte gem before install openstf-ruby-client
 gem 'openstf-ruby-client'
 ```
 
@@ -14,9 +15,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install openstf-ruby-client
 
 ## Usage
 
