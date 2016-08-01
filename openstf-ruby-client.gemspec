@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "svelte", "0.1.4-patched"
 
-  spec.add_development_dependency "bundler", "1.13.0.rc.1"
+  spec.add_development_dependency "bundler", "~> 1.12.0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "pry"
