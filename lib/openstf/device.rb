@@ -1,7 +1,7 @@
 module OpenSTF
   class Device
     DEVICE_TIMEOUT = 60 * 60 * 2 * 1000 # 2hours, milli second unit
-    attr_accessor :remote_connect_url
+    attr_accessor :remote_connect_url, :data, :serial
 
     def initialize(data: {}, serial: nil)
       @data   = data
